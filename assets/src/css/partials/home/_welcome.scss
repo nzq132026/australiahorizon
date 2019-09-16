@@ -1,0 +1,44 @@
+.welcome {
+    background-color: #FFF;
+    background-position: fixed;
+    text-align: center;
+    width: 100%;
+
+    img {
+        margin: 0;
+        max-width: 80%;
+    }
+
+    .welcome-text{
+        padding:3%;
+        h2{
+            text-transform: capitalize;
+        }
+    }
+}
+
+.break {
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin-top: 8%;
+    .desc {
+        background-color: #000;
+        opacity: 0.5;
+        color: #fff;
+        height: 500px;
+        .desc-text {
+            padding: 3% 3%;
+            h2 {
+                padding-top: 3%;
+        		padding-bottom: 3%;
+                font-size: $text-slogan;
+            }
+            p {
+                padding-top:3%;
+                font-size: $text-title;
+            }
+        }
+    }
+}

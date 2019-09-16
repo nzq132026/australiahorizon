@@ -1,0 +1,44 @@
+.schedule{
+    @media (max-width: $sm-break){
+    	display: block;
+    }
+
+	.row-eq-height{
+		display: -webkit-box;
+	    display: -webkit-flex;
+	    display: -ms-flexbox;
+	    display: flex;
+	    flex-wrap: wrap;
+	    -webkit-flex-wrap: wrap;
+	    padding-top: 3%;
+	    padding-bottom:3%;
+	    @media (max-width: $sm-break){
+				display: block;
+			}
+
+		.day-pic{
+			@media (max-width: $sm-break){
+				border-radius: 0 !important;
+				height: 200px !important;
+			}
+		}
+		.day{
+			background-size: cover;
+			background-position: center;
+			border-radius: 20px 20px 20px 20px;
+			height:auto;
+			text-align: center;
+			h4{
+				margin: 0 auto;
+				margin-top: 4%;
+				margin-bottom: 2%;
+				font-size: 30px;
+				text-transform: capitalize;
+			}
+			p{
+				line-height: $text-title;
+				padding-bottom: 5%;
+			}
+		}
+	}
+}

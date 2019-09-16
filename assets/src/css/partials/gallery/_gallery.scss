@@ -1,0 +1,20 @@
+.gallery{
+	text-align: center;
+	height: auto;
+	margin-bottom: 3%;
+	h2{
+		&:after {
+		    content: '';
+			position:absolute;
+			margin-top: 10px;
+			left: 40%;
+			right: 40%;
+			height: 2px;
+			background:$brand-primary;
+			display:block;
+	    }
+	}
+	p{
+		padding: 2%;
+	}
+}

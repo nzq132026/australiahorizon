@@ -1,0 +1,22 @@
+.au-about-us{
+	text-align: center;
+	height: auto;
+	h2{
+		&:after {
+		    content: '';
+			position:absolute;
+			margin-top: 10px;
+			left: 40%;
+			right: 40%;
+			height: 2px;
+			background:$brand-primary;
+			display:block;
+	    }
+	}
+	p{
+		margin: 0 auto;
+		padding-top: 2%;
+		color: $brand-gray;
+		line-height: 28px;
+	}
+}

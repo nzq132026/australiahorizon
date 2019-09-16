@@ -1,0 +1,27 @@
+.tours{
+	background-color: #FFF;
+	text-align:center;
+	padding-bottom: 3%;
+	
+	.row-eq-height{
+		display: -webkit-box;
+	    display: -webkit-flex;
+	    display: -ms-flexbox;
+	    display: flex;
+	    flex-wrap: wrap !important;
+	    -webkit-flex-wrap: wrap;
+	}
+	.thumbs{
+		padding-top: 3%;
+		h3{
+			text-transform: none;
+			padding-top:2%;
+			padding-bottom: 5%;
+		}
+		
+		.btn{
+			width:120px;
+			transition: 0.3s;
+		}
+	}
+}

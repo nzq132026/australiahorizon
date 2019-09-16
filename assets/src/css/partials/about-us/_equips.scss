@@ -1,0 +1,39 @@
+.equips{
+	text-align: center;
+	h2{
+		margin-bottom: 3%;
+		&:after {
+			    content: '';
+				position:absolute;
+				margin-top: 10px;
+				left: 40%;
+				right: 40%;
+				height: 2px;
+				background:$brand-primary;
+				display:block;
+		    }
+	}
+	p{
+		margin: 0 auto;
+		padding: 8% 8%;
+		line-height: 28px;
+	}
+
+
+	.equip-pic{
+		margin: 0 auto;
+		border-radius: 100%;
+		background-size: cover;
+		width:250px;
+		height: 250px;
+	}
+	.offroad{
+		background-image: url("../../images/equip1.jpg");
+	}
+	.camping{
+		background-image: url("../../images/equip2.jpg");
+	}
+	.van{
+		background-image: url("../../images/equip3.jpg");
+	}
+}

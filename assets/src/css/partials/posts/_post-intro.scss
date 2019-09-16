@@ -1,0 +1,21 @@
+.post-intro{
+	text-align: center;
+	height: auto;
+	margin-bottom: 3%;
+	h2{
+		text-transform: none;
+		&:after {
+		    content: '';
+			position:absolute;
+			margin-top: 10px;
+			left: 40%;
+			right: 40%;
+			height: 2px;
+			background:$brand-primary;
+			display:block;
+	    }
+	}
+	p{
+		padding: 2%;
+	}
+}
